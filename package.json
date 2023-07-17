@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
@@ -29,12 +30,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@htmlacademy/editorconfig-cli": "^2.0.5",
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^10.4.14",
     "browser-sync": "^2.29.3",
     "del": "^7.0.0",
     "gulp": "^4.0.2",
-    "gulp-dart-sass": "^1.1.0",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-libsquoosh": "^1.1.2",
     "gulp-plumber": "^1.2.1",
@@ -44,7 +45,7 @@
     "gulp-stacksvg": "^2.0.2",
     "gulp-svgmin": "^4.1.0",
     "gulp-terser": "^2.1.0",
-    "postcss": "^8.4.26",
+    "postcss": "^8.3.11",
     "postcss-csso": "^6.0.1",
     "stylelint": "^15.10.1",
     "stylelint-config-htmlacademy": "^1.1.5"
